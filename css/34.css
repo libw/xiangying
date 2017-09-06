@@ -1,0 +1,54 @@
+body{
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-top: 70px;
+
+
+}
+.jumbotron{
+    padding-left:60px;
+    padding-right:60px;
+    position:relative;
+}
+footer{
+    height:120px;
+
+    line-height:120px;
+    border-top:1px solid #ddd;
+    margin-top:50px;
+}
+.wrop{
+    overflow:hidden;
+
+}
+.tagglebtn{
+    position:absolute;
+    top:0;
+    right:0;
+    display:none;
+}
+.content-c{
+    position: relative;
+    right:0;
+    transition:all 0.5s;
+}
+.content-active{
+    right:50%;
+
+}
+@media screen and (max-width:768px){
+
+    .list-group{
+        position: absolute;
+        right:-50%
+    }
+    .tagglebtn{
+
+        display:block;
+    }
+}
